@@ -27,6 +27,6 @@ def constructor(filename, new_file, start, stop, label):
 					pass
 			else:
 				continue
-				
-			
-constructor('SC4001E0-PSG_data.csv', 'SC4001E0-FPZ-CZ.csv', 0, 30630 ,0)
+
+if __name__ == '__main__':
+	constructor('SC4001E0-PSG_data.csv', 'SC4001E0-FPZ-CZ.csv', 0, 30630 ,0)
